@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B7E5F1B565CE418DA0B4C77D /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7B71F848703B4B51A09DDE3D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				220A819D95BB48D0902D6A2B /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		D96734337B09442EB900A448 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B3803C9853EF4873B08ED61C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				476278469CAE4620A47EF41A /* CMake Rules */,
+			);
+			dependencies = (
+				DB6C5A13F0E74F46937B32E2 /* PBXTargetDependency */,
+				8AA548DEE86941EE9CC7C8B9 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0F04A8B3ADD041CB8984FCAA /* /Users/linyingjie/work/c-projects/libhttpserver/src/deferred_response.cpp */ = {isa = PBXBuildFile; fileRef = 68AB70E8A8A14A6D9CB9AFD0 /* /Users/linyingjie/work/c-projects/libhttpserver/src/deferred_response.cpp */; };
+		2B6E3B3F073E40DD9765A3C1 /* /Users/linyingjie/work/c-projects/libhttpserver/src/http_resource.cpp */ = {isa = PBXBuildFile; fileRef = A4068D41CB9C4969B2F6AC64 /* /Users/linyingjie/work/c-projects/libhttpserver/src/http_resource.cpp */; };
+		58A1E2B34ADE4D86A814B971 /* /Users/linyingjie/work/c-projects/libhttpserver/src/string_utilities.cpp */ = {isa = PBXBuildFile; fileRef = CF29635FC87F43628FCD8ED9 /* /Users/linyingjie/work/c-projects/libhttpserver/src/string_utilities.cpp */; };
+		5B16AF731690463E8AECD22F /* /Users/linyingjie/work/c-projects/libhttpserver/src/webserver.cpp */ = {isa = PBXBuildFile; fileRef = F00C24A8B29B4E7291FD0606 /* /Users/linyingjie/work/c-projects/libhttpserver/src/webserver.cpp */; };
+		5CD291615A064FD4A51CC512 /* /Users/linyingjie/work/c-projects/libhttpserver/src/basic_auth_fail_response.cpp */ = {isa = PBXBuildFile; fileRef = A6F0894CC6F64284AAECBC3B /* /Users/linyingjie/work/c-projects/libhttpserver/src/basic_auth_fail_response.cpp */; };
+		5E99D60BA9FA432583A61151 /* /Users/linyingjie/work/c-projects/libhttpserver/src/http_response.cpp */ = {isa = PBXBuildFile; fileRef = C2AA18F03C754796B7AB196F /* /Users/linyingjie/work/c-projects/libhttpserver/src/http_response.cpp */; };
+		6276DE8F9C9746C190C5DDDA /* /Users/linyingjie/work/c-projects/libhttpserver/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B975F0E7B7E0413A8FD28E6E /* /Users/linyingjie/work/c-projects/libhttpserver/CMakeLists.txt */; };
+		7D560CE5A67244EEA1E3AAF3 /* /Users/linyingjie/work/c-projects/libhttpserver/src/gettext.h */ = {isa = PBXBuildFile; fileRef = 8DDCE5CF681F4FFB91027AF5 /* /Users/linyingjie/work/c-projects/libhttpserver/src/gettext.h */; };
+		826A717095304AE4885570A6 /* /Users/linyingjie/work/c-projects/libhttpserver/src/file_response.cpp */ = {isa = PBXBuildFile; fileRef = FAD037618DB1444697EE28D7 /* /Users/linyingjie/work/c-projects/libhttpserver/src/file_response.cpp */; };
+		BB357EB830F4474680F35F9A /* /Users/linyingjie/work/c-projects/libhttpserver/src/http_request.cpp */ = {isa = PBXBuildFile; fileRef = 241FED839B07420981E6EBB4 /* /Users/linyingjie/work/c-projects/libhttpserver/src/http_request.cpp */; };
+		C8065F02991344629D9F3B41 /* /Users/linyingjie/work/c-projects/libhttpserver/src/digest_auth_fail_response.cpp */ = {isa = PBXBuildFile; fileRef = C91EC875645E4006BC513D94 /* /Users/linyingjie/work/c-projects/libhttpserver/src/digest_auth_fail_response.cpp */; };
+		DAD686E2399241B5A0EB14B5 /* /Users/linyingjie/work/c-projects/libhttpserver/src/string_response.cpp */ = {isa = PBXBuildFile; fileRef = 2E207041C7764BFDAC47377E /* /Users/linyingjie/work/c-projects/libhttpserver/src/string_response.cpp */; };
+		DC87BBF26FBC4208AB3F8816 /* /Users/linyingjie/work/c-projects/libhttpserver/src/httpserver.hpp */ = {isa = PBXBuildFile; fileRef = BD4FAFE07E0E4A328F9C69F0 /* /Users/linyingjie/work/c-projects/libhttpserver/src/httpserver.hpp */; };
+		E0C9EC940E9D43AB8D627767 /* /Users/linyingjie/work/c-projects/libhttpserver/src/http_utils.cpp */ = {isa = PBXBuildFile; fileRef = 10EF005DF5D84259B8D447D6 /* /Users/linyingjie/work/c-projects/libhttpserver/src/http_utils.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		625221BF652F41D9B08F85FA /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		6BE1DCE49D0D4560B97D7073 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		85ABF7218A954CDA80EB3386 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		A4D89B5BE0A4428E9CBC71ED /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0086476DBDAE4034BE47DD77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0B09858937A4FB699571700 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7E5F1B565CE418DA0B4C77D;
+			remoteInfo = ZERO_CHECK;
+		};
+		C4331B079A924943B76A39BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0B09858937A4FB699571700 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9374D2778449E3BC4C1814;
+			remoteInfo = LIBHTTPSERVER;
+		};
+		CE877414A3754CBC98170534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0B09858937A4FB699571700 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7E5F1B565CE418DA0B4C77D;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		084DD42D20AB4647B705A501 /* /Users/linyingjie/work/c-projects/libhttpserver/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		10EF005DF5D84259B8D447D6 /* /Users/linyingjie/work/c-projects/libhttpserver/src/http_utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = http_utils.cpp; path = src/http_utils.cpp; sourceTree = SOURCE_ROOT; };
+		241FED839B07420981E6EBB4 /* /Users/linyingjie/work/c-projects/libhttpserver/src/http_request.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = http_request.cpp; path = src/http_request.cpp; sourceTree = SOURCE_ROOT; };
+		2E207041C7764BFDAC47377E /* /Users/linyingjie/work/c-projects/libhttpserver/src/string_response.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = string_response.cpp; path = src/string_response.cpp; sourceTree = SOURCE_ROOT; };
+		68AB70E8A8A14A6D9CB9AFD0 /* /Users/linyingjie/work/c-projects/libhttpserver/src/deferred_response.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = deferred_response.cpp; path = src/deferred_response.cpp; sourceTree = SOURCE_ROOT; };
+		8DDCE5CF681F4FFB91027AF5 /* /Users/linyingjie/work/c-projects/libhttpserver/src/gettext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gettext.h; path = src/gettext.h; sourceTree = SOURCE_ROOT; };
+		A4068D41CB9C4969B2F6AC64 /* /Users/linyingjie/work/c-projects/libhttpserver/src/http_resource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = http_resource.cpp; path = src/http_resource.cpp; sourceTree = SOURCE_ROOT; };
+		A6F0894CC6F64284AAECBC3B /* /Users/linyingjie/work/c-projects/libhttpserver/src/basic_auth_fail_response.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = basic_auth_fail_response.cpp; path = src/basic_auth_fail_response.cpp; sourceTree = SOURCE_ROOT; };
+		B975F0E7B7E0413A8FD28E6E /* /Users/linyingjie/work/c-projects/libhttpserver/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BD4FAFE07E0E4A328F9C69F0 /* /Users/linyingjie/work/c-projects/libhttpserver/src/httpserver.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = httpserver.hpp; path = src/httpserver.hpp; sourceTree = SOURCE_ROOT; };
+		C2AA18F03C754796B7AB196F /* /Users/linyingjie/work/c-projects/libhttpserver/src/http_response.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = http_response.cpp; path = src/http_response.cpp; sourceTree = SOURCE_ROOT; };
+		C91EC875645E4006BC513D94 /* /Users/linyingjie/work/c-projects/libhttpserver/src/digest_auth_fail_response.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = digest_auth_fail_response.cpp; path = src/digest_auth_fail_response.cpp; sourceTree = SOURCE_ROOT; };
+		CF29635FC87F43628FCD8ED9 /* /Users/linyingjie/work/c-projects/libhttpserver/src/string_utilities.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = string_utilities.cpp; path = src/string_utilities.cpp; sourceTree = SOURCE_ROOT; };
+		F00C24A8B29B4E7291FD0606 /* /Users/linyingjie/work/c-projects/libhttpserver/src/webserver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = webserver.cpp; path = src/webserver.cpp; sourceTree = SOURCE_ROOT; };
+		FAD037618DB1444697EE28D7 /* /Users/linyingjie/work/c-projects/libhttpserver/src/file_response.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = file_response.cpp; path = src/file_response.cpp; sourceTree = SOURCE_ROOT; };
+		FDF773DE4F304BD396549637 /* LIBHTTPSERVER */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libLIBHTTPSERVER.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1845F055DEB94478AF5EB9E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF773DE4F304BD396549637 /* LIBHTTPSERVER */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1876B1775AAE4D788BC126C4 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F9B5E3EF531E4F49A11EC872 /* CMake Rules */,
+				084DD42D20AB4647B705A501 /* /Users/linyingjie/work/c-projects/libhttpserver/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		1A5A7C5471C84816AC47FE9B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0894CC6F64284AAECBC3B /* /Users/linyingjie/work/c-projects/libhttpserver/src/basic_auth_fail_response.cpp */,
+				68AB70E8A8A14A6D9CB9AFD0 /* /Users/linyingjie/work/c-projects/libhttpserver/src/deferred_response.cpp */,
+				C91EC875645E4006BC513D94 /* /Users/linyingjie/work/c-projects/libhttpserver/src/digest_auth_fail_response.cpp */,
+				FAD037618DB1444697EE28D7 /* /Users/linyingjie/work/c-projects/libhttpserver/src/file_response.cpp */,
+				241FED839B07420981E6EBB4 /* /Users/linyingjie/work/c-projects/libhttpserver/src/http_request.cpp */,
+				A4068D41CB9C4969B2F6AC64 /* /Users/linyingjie/work/c-projects/libhttpserver/src/http_resource.cpp */,
+				C2AA18F03C754796B7AB196F /* /Users/linyingjie/work/c-projects/libhttpserver/src/http_response.cpp */,
+				10EF005DF5D84259B8D447D6 /* /Users/linyingjie/work/c-projects/libhttpserver/src/http_utils.cpp */,
+				2E207041C7764BFDAC47377E /* /Users/linyingjie/work/c-projects/libhttpserver/src/string_response.cpp */,
+				CF29635FC87F43628FCD8ED9 /* /Users/linyingjie/work/c-projects/libhttpserver/src/string_utilities.cpp */,
+				F00C24A8B29B4E7291FD0606 /* /Users/linyingjie/work/c-projects/libhttpserver/src/webserver.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4DCAA81B834F4ADAA81425F3 /* LIBHTTPSERVER */ = {
+			isa = PBXGroup;
+			children = (
+				1A5A7C5471C84816AC47FE9B /* Source Files */,
+				DD07D03A1C3546BB8D2576B7 /* Header Files */,
+				B975F0E7B7E0413A8FD28E6E /* /Users/linyingjie/work/c-projects/libhttpserver/CMakeLists.txt */,
+			);
+			name = LIBHTTPSERVER;
+			sourceTree = "<group>";
+		};
+		D62CAA84D08D45978269D237 = {
+			isa = PBXGroup;
+			children = (
+				4DCAA81B834F4ADAA81425F3 /* LIBHTTPSERVER */,
+				1876B1775AAE4D788BC126C4 /* ALL_BUILD */,
+				1845F055DEB94478AF5EB9E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD07D03A1C3546BB8D2576B7 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DDCE5CF681F4FFB91027AF5 /* /Users/linyingjie/work/c-projects/libhttpserver/src/gettext.h */,
+				BD4FAFE07E0E4A328F9C69F0 /* /Users/linyingjie/work/c-projects/libhttpserver/src/httpserver.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		F9B5E3EF531E4F49A11EC872 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9374D2778449E3BC4C1814 /* LIBHTTPSERVER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA86238A5B748E8AF099E6D /* Build configuration list for PBXNativeTarget "LIBHTTPSERVER" */;
+			buildPhases = (
+				4631EFEB4A834800AF61E1E3 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D558EA92B4E4016ABDD026E /* PBXTargetDependency */,
+			);
+			name = LIBHTTPSERVER;
+			productName = LIBHTTPSERVER;
+			productReference = FDF773DE4F304BD396549637 /* LIBHTTPSERVER */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0B09858937A4FB699571700 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1230;
+			};
+			buildConfigurationList = 9E209757D488479F883E6C6E /* Build configuration list for PBXProject "HTTPSERVER" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A4D89B5BE0A4428E9CBC71ED /* Debug */,
+				625221BF652F41D9B08F85FA /* Release */,
+				6BE1DCE49D0D4560B97D7073 /* MinSizeRel */,
+				85ABF7218A954CDA80EB3386 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = D62CAA84D08D45978269D237;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				D96734337B09442EB900A448 /* ALL_BUILD */,
+				CD9374D2778449E3BC4C1814 /* LIBHTTPSERVER */,
+				B7E5F1B565CE418DA0B4C77D /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		220A819D95BB48D0902D6A2B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/linyingjie/work/c-projects/libhttpserver -f /Users/linyingjie/work/c-projects/libhttpserver/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		260484D01F2A4E4DB5B578CD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4631EFEB4A834800AF61E1E3 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/linyingjie/work/c-projects/libhttpserver -f /Users/linyingjie/work/c-projects/libhttpserver/CMakeScripts/LIBHTTPSERVER_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		476278469CAE4620A47EF41A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/linyingjie/work/c-projects/libhttpserver -f /Users/linyingjie/work/c-projects/libhttpserver/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		DDD597A3900A4957933B6421 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D558EA92B4E4016ABDD026E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7E5F1B565CE418DA0B4C77D /* ZERO_CHECK */;
+			targetProxy = CE877414A3754CBC98170534 /* PBXContainerItemProxy */;
+		};
+		8AA548DEE86941EE9CC7C8B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7E5F1B565CE418DA0B4C77D /* ZERO_CHECK */;
+			targetProxy = 0086476DBDAE4034BE47DD77 /* PBXContainerItemProxy */;
+		};
+		DB6C5A13F0E74F46937B32E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9374D2778449E3BC4C1814 /* LIBHTTPSERVER */;
+			targetProxy = C4331B079A924943B76A39BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03B61698DEF54F768A15D4F5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/linyingjie/work/c-projects/libhttpserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		310364F4C935443193344BF1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/linyingjie/work/c-projects/libhttpserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3CA0283F3E65416497BA2A68 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "";
+			};
+			name = RelWithDebInfo;
+		};
+		54BF8368246C40D6AE8A5A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/linyingjie/work/c-projects/libhttpserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5C8122D1D20149D397C82DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/linyingjie/work/c-projects/libhttpserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6D7AF2BA879747AF87B1E0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/linyingjie/work/c-projects/libhttpserver/build";
+			};
+			name = Debug;
+		};
+		6FF04C1315704A75A83E7043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/linyingjie/work/c-projects/libhttpserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7F24A83A56CF48F8B4961080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/linyingjie/work/c-projects/libhttpserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		875FF217805A41F193D80B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/linyingjie/work/c-projects/libhttpserver/build";
+			};
+			name = Release;
+		};
+		ACF01F4056E54C3CBC6E7A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "";
+			};
+			name = Debug;
+		};
+		AD953FBF60E04D41B4EA1EAF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/linyingjie/work/c-projects/libhttpserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CC7D595A6C8546F19BCA8A98 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/linyingjie/work/c-projects/libhttpserver/build";
+			};
+			name = RelWithDebInfo;
+		};
+		E1378111265A4AD5BD627D4E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/linyingjie/work/c-projects/libhttpserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		ECAFB518A8AD4BF8BB6E6B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "";
+			};
+			name = Release;
+		};
+		FAD7B88700694C9E83ADF921 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/linyingjie/work/c-projects/libhttpserver/build";
+			};
+			name = MinSizeRel;
+		};
+		FFA26ACEB79D4ACEB75A3620 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "";
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DA86238A5B748E8AF099E6D /* Build configuration list for PBXNativeTarget "LIBHTTPSERVER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF01F4056E54C3CBC6E7A30 /* Debug */,
+				ECAFB518A8AD4BF8BB6E6B3A /* Release */,
+				FFA26ACEB79D4ACEB75A3620 /* MinSizeRel */,
+				3CA0283F3E65416497BA2A68 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7B71F848703B4B51A09DDE3D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF04C1315704A75A83E7043 /* Debug */,
+				5C8122D1D20149D397C82DC6 /* Release */,
+				310364F4C935443193344BF1 /* MinSizeRel */,
+				03B61698DEF54F768A15D4F5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9E209757D488479F883E6C6E /* Build configuration list for PBXProject "HTTPSERVER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7AF2BA879747AF87B1E0BD /* Debug */,
+				875FF217805A41F193D80B90 /* Release */,
+				FAD7B88700694C9E83ADF921 /* MinSizeRel */,
+				CC7D595A6C8546F19BCA8A98 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B3803C9853EF4873B08ED61C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F24A83A56CF48F8B4961080 /* Debug */,
+				54BF8368246C40D6AE8A5A6D /* Release */,
+				AD953FBF60E04D41B4EA1EAF /* MinSizeRel */,
+				E1378111265A4AD5BD627D4E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0B09858937A4FB699571700 /* Project object */;
+}
