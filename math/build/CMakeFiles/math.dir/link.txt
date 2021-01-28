@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -dynamiclib -Wl,-headerpad_max_install_names  -o libmath.dylib -install_name /Users/linyingjie/work/c-projects/demo/math/build/libmath.dylib CMakeFiles/math.dir/add.o 

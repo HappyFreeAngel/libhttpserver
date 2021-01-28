@@ -1,3 +1,0 @@
-/Users/linyingjie/work/c-projects/libhttpserver/CMakeFiles/LIBHTTPSERVER.dir
-/Users/linyingjie/work/c-projects/libhttpserver/CMakeFiles/ALL_BUILD.dir
-/Users/linyingjie/work/c-projects/libhttpserver/CMakeFiles/ZERO_CHECK.dir
